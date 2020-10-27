@@ -17,7 +17,13 @@ class DicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: [Image(image: AssetImage('images/'))],
+      children: <Widget>[
+        Expanded(
+          child: Image(
+            image: AssetImage('images/1.png'),
+          ),
+        )
+      ],
     );
   }
 }
