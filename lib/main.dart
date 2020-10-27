@@ -64,6 +64,18 @@ class _DicePageState extends State<DicePage> {
             ],
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                height: 150,
+                width: 150,
+                child: Image(
+                  image: AssetImage('images/1.png'),
+                ),
+              ),
+            ],
+          ),
+          Row(
             children: <Widget>[
               Expanded(
                 child: FlatButton(
